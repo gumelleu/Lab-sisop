@@ -1,1 +1,2 @@
-HTTPD_ARGS="-h /var/www/data -u www-data"
+# S90httpd ja define HTTPD_ARGS="-h /var/www/data"; aqui so acrescentamos o usuario
+HTTPD_ARGS="$HTTPD_ARGS -u www-data"
